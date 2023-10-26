@@ -1,0 +1,28 @@
+
+
+body, html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+footer {
+    .container {
+        margin: 0 auto !important;
+        padding: 8px auto !important;
+        .f1 {
+            color: $gray-lightly;
+            max-width: 50%;
+        }
+        .f5 {
+            text-align: right;
+            max-width: 50%;
+            color: $gray-lightly;
+            a {
+                margin-left: 4px;
+                color: $gray-light;
+            }
+        }
+    }
+}
+
+

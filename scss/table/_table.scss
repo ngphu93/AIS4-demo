@@ -1,0 +1,17 @@
+.table {
+    margin: 0;
+    border-color: $gray-lighter;
+    font-weight: 400;
+    tr {
+        th {
+            padding: 16px;
+            background-color: $gray-lightest;
+            border: none;
+            box-shadow: none;
+            font-weight: 500;
+        }
+        td {
+            padding: 16px;
+        }
+    }
+}

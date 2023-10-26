@@ -1,0 +1,41 @@
+
+
+.navbar {
+    padding: 0;
+    background-color: $white;
+    border-bottom: 1px solid $gray-lighter;
+    .container {
+        margin: 0 auto !important;
+        padding: 16px 0 !important;
+        gap: 60px;
+    }
+    .nav-item {
+        margin: 0;
+        padding: 0;
+        .nav-link {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 20px;
+            text-transform: uppercase;
+            padding: 10px 16px;
+            color: $gray;
+            &:hover {
+                background-color: $primary-lightest;
+                color: $primary;
+                border-radius: 4px;
+                transition: background-color 0.3s;
+            }
+        }
+    }
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    gap: 32px;
+}
+
+

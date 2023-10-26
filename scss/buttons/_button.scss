@@ -1,0 +1,36 @@
+
+.btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+}
+
+svg {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.btn-primary {
+    background-color: $primary;
+    color: $white;
+    &:hover {
+        background-color: $primary-bold;
+    }
+}
+
+.btn-outlined {
+    background-color: $white;
+    color: $primary;
+    border: 1px solid $gray-lighter;
+    &:hover {
+        background-color: $primary-lightest;
+        color: $primary;
+        border: 1px solid $primary;
+    }
+}

@@ -1,0 +1,77 @@
+
+
+$white: #ffffff;
+$black: #000000;
+$primary: #0047D6;
+$primary-bold: #002BBC;
+$primary-lighter: #DCE2F8;
+$primary-lightest: #F1F3FC;
+$gray: #2C2C2C;
+$gray-bold: #1A1A1A;
+$gray-light: #545556;
+$gray-lightly: #8A8B8D;
+$gray-lighter: #F0F0F0;
+$gray-lightest: #FAFAFA;
+
+$body-font-family: 'Inter', sans-serif;
+$headings-font-family: 'Inter', sans-serif;
+ 
+body {
+    background-color: $gray-lightest;
+    font-family: $body-font-family;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings-font-family;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+h4 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+h5 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+h6 {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+
